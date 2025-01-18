@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.2](https://github.com/mustafazeydani/eslint-config/compare/v1.0.1...v1.0.2) (2025-01-18)
+
+### Bug Fixes
+
+* bumped version to 1.0.2 ([3f692e0](https://github.com/mustafazeydani/eslint-config/commit/3f692e0f48a6779de6ee25284d2976afd71fc7bb))
+
 ## [1.0.1](https://github.com/mustafazeydani/eslint-config/compare/v1.0.0...v1.0.1) (2025-01-18)
 
 ### Bug Fixes
