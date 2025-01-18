@@ -1,0 +1,81 @@
+{
+  "name": "@mustafazeydani/eslint-config",
+  "version": "1.0.2",
+  "description": "ESLint configurations for my personal projects",
+  "author": "Mustafa Zeydani",
+  "license": "MIT",
+  "homepage": "https://github.com/mustafazeydani/eslint-config/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mustafazeydani/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mustafazeydani/eslint-config/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "packageManager": "pnpm@10.0.0",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "check-types": "tsc --project tsconfig.json --pretty --noEmit",
+    "prepare": "husky"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "pnpm": {
+    "overrides": {
+      "conventional-changelog-conventionalcommits": ">= 8.0.0"
+    }
+  },
+  "release": {
+    "extends": [
+      "@mustafazeydani/semantic-release"
+    ]
+  },
+  "peerDependencies": {
+    "eslint": "9.x",
+    "typescript": "5.x"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "globals": "^15.14.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.6.1",
+    "@commitlint/config-conventional": "^19.6.0",
+    "@eslint/js": "^9.18.0",
+    "@mustafazeydani/semantic-release": "^1.0.0",
+    "@types/eslint": "^9.6.1",
+    "@types/eslint__js": "^8.42.3",
+    "@types/node": "^22.10.7",
+    "eslint": "^9.18.0",
+    "eslint-plugin-jsonc": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.4",
+    "husky": "^9.1.7",
+    "jsonc-eslint-parser": "^2.4.0",
+    "lint-staged": "^15.4.1",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.20.0"
+  }
+}
