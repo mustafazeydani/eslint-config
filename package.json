@@ -1,6 +1,6 @@
 {
   "name": "@mustafazeydani/eslint-config",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "ESLint configurations for my personal projects",
   "author": "Mustafa Zeydani",
   "license": "MIT",
