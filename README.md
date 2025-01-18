@@ -1,6 +1,6 @@
 # ESLint Config
 
-## Installation
+## Install
 
 ```shell
 npm install --save-dev @mustafazeydani/eslint-config eslint
